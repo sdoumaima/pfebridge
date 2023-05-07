@@ -1,0 +1,99 @@
+
+/* Fonts */
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Poppins", sans-serif;
+  }
+  
+  /* Colors */
+  :root {
+    --color-default: #0a0d13;
+    --color-primary: #f1f2f5;
+    --color-secondary: #0e1d34;
+  }
+  
+  /* Smooth scroll behavior */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+  body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+  }
+  
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-primary);
+  }
+  
+  /*--------------------------------------------------------------
+  # Features Section
+  --------------------------------------------------------------*/
+  .features {
+    padding-top: 80px;
+  }
+  
+  .features .features-item+.features-item {
+    margin-top: 100px;
+  }
+  
+  @media (max-width: 640px) {
+    .features .features-item+.features-item {
+      margin-top: 40px;
+    }
+  }
+  
+  .features .features-item h3 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #1053BB;
+  }
+  
+  .features .features-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features .features-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .features .features-item ul li:last-child {
+    padding-bottom: 0;
+  }
+  
+  .features .features-item ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: var(--color-primary);
+  }
+  
+  .features .features-item p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .btn-b{
+    color:#1053BB;
+    background:#1053BB;
+    border-color:#1053BB;
+
+  }
